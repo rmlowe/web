@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			window.clearTimeout(timeout);
 		}
 		timeout = window.setTimeout(function() {
-			alert("hi");
+			alert("The text is: " + document.getElementById("mytext").value);
 		}, 5000);
 	})
 })
